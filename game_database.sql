@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `games`
 --
 
+CREATE DATABASE `game_database`;
+
 DROP TABLE IF EXISTS `games`;
 CREATE TABLE IF NOT EXISTS `games` (
   `id` int(5) NOT NULL AUTO_INCREMENT,
